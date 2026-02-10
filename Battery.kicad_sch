@@ -3353,6 +3353,50 @@
 			)
 		)
 	)
+	(global_label "SW"
+		(shape input)
+		(at 123.19 34.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c8a014d-6b33-4298-be08-bce0f435b668")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 28.6439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVP"
+		(shape input)
+		(at 124.46 41.91 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d2bb911-4d20-4738-91c1-9f69fa4d9434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 35.2357 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape input)
 		(at 44.45 100.33 0)
@@ -5434,14 +5478,13 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C17888"
-			(at 113.0299 113.03 0)
+		(property "Value" "0Ω"
+			(at 113.03 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
@@ -5471,12 +5514,13 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "0Ω"
+		(property "LCSC" "C17888"
 			(at 111.76 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5837,7 +5881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2507261355_Legend-Si-LGS63030B6_C5123976.pdf"
 			(at 111.76 39.37 0)
 			(effects
 				(font
@@ -5846,7 +5890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "https://jlcpcb.com/partdetail/LegendSi-LGS63030B6/C5123976"
 			(at 111.76 39.37 0)
 			(effects
 				(font
